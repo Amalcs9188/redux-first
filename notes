@@ -1,0 +1,39 @@
+
+
+<!--! Redux is mmore usfull when, -->
+
+ # You have amount of  of application that are needed in many places in the app
+ # the app state is updated frequenly every over time
+ # the logic to update the state may be complex
+ # the app has mediume or large codebase an dmay be used more people 
+ 
+<!-- ! Single Source code of truth -->
+
+# the details of the will be stored in an object like tree
+
+<!-- ! dispatch-->
+   
+# this will help in changing data taken from the store update
+
+<!-- ! Action -->
+
+# In Redux, an action is an object that represents a change or an event that has occurred in your application. Actions are the only way to send data from your application to your Redux store. They describe what happened in the application but do not specify how the application's state changes in response to those events—that's the reducer's job.
+
+<!--? Key Components of an Action: -->
+
+# Type: A string that indicates the type of action being performed. This is a required property and typically written in uppercase. -->
+
+# Payload: An optional property that contains additional information needed to perform the action. This could be any data required by the reducer to update the state.
+
+<!--  ! store  -->
+# store is an object where the state are stored
+
+
+<!-- !Reducer -->
+
+# reducer is a pure function that specifies how the application's state changes in response to an action. Reducers handle the actual updating of the state based on the action's type and payload. They play a crucial role in maintaining the predictability and immutability of state changes in a Redux-managed application.
+
+
+
+
+
